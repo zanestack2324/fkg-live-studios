@@ -4,10 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pricing — FKG LIVE Studios | Affordable Creative Training in Lagos</title>
-  <meta name="description" content="Affordable tuition at FKG LIVE Academy, powered by FKG LIVE Studios Lagos. Drop-in sessions from ₦10k, certificate tracks from ₦250k, advanced diplomas from ₦450k. Professional creative training at competitive rates.">
+  <meta name="description" content="Affordable tuition at FKG LIVE Academy, powered by FKG LIVE Studios Lagos. Drop-in sessions from ₦10k, certificate tracks from ₦250k, advanced diplomas from ₦450k. Professional Live Studio Performance training at competitive rates.">
+  <meta name="keywords" content="music production Lagos, sound engineering Nigeria, creative studio Lagos, DJ training, Live Studio Performance course, photography studio, cinematography course, FKG LIVE pricing">
+  <meta name="author" content="FKG LIVE Studios">
+  <meta property="og:title" content="Pricing — FKG LIVE Studios | No Hidden Costs. No Shortcuts.">
+  <meta property="og:description" content="Transparent pricing for Lagos-standard Live Studio Performance training. Drop-in sessions, certificate tracks, and advanced diplomas.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://fkglive.com/pricing.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Pricing — FKG LIVE Studios">
+  <meta name="twitter:description" content="Transparent pricing for Lagos-standard Live Studio Performance training. Drop-in sessions from ₦10k.">
+  <meta name="twitter:image" content="images/studio-mixing.jpg">
+  <link rel="canonical" href="https://fkglive.com/pricing.html">
+  <link rel="icon" href="images/logo.jpeg" type="image/jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
+<!-- Splashscreen -->
+<div class="splashscreen" id="splashscreen">
+  <img src="images/logo.jpeg" alt="FKG LIVE Studios">
+  <div class="splash-text">FKG LIVE Studios</div>
+</div>
 
 <nav class="navbar" id="navbar">
   <div class="nav-top"><p>Now Enrolling — Limited Spots Available</p></div>
@@ -26,11 +46,11 @@
   </div>
 </nav>
 
-<div class="page-hero">
+<div class="page-hero" style="background-image: url('images/studio-mixing.jpg');">
   <div class="container">
-    <div class="section-badge">Tuition & Fees</div>
-    <h1>Transparent Pricing</h1>
-    <p>Quality creative education shouldn't break the bank. We've priced our programs to be accessible while delivering real value.</p>
+    <div class="section-badge">Investment</div>
+    <h1>No Hidden Costs. No Shortcuts.</h1>
+    <p>What you see is what you pay. Lagos-standard pricing for studio-grade training.</p>
   </div>
 </div>
 
@@ -39,7 +59,7 @@
   <div class="container">
     <div class="section-header">
       <div class="section-badge">Market Position</div>
-      <h2>Where We Sit in the Lagos Market</h2>
+      <h2>Where We Sit in the Food Chain</h2>
       <p>Below is a general market read on Lagos music-production training, and where FKG LIVE fits in it.</p>
       <div class="section-divider"></div>
     </div>
@@ -69,7 +89,7 @@
 </section>
 
 <!-- Pricing Cards -->
-<section style="background: var(--bg-secondary);">
+<section class="section-bg" style="background-image: url('images/studio-mixing.jpg');">
   <div class="container">
     <div class="section-header">
       <div class="section-badge">Our Rates</div>
@@ -141,10 +161,10 @@
   </div>
 </section>
 
-<section>
+<section class="section-bg" style="background-image: url('images/studio-performance.jpg');">
   <div class="container">
     <div class="cta-banner">
-      <h2>Start With a Free Drop-In Session</h2>
+      <h2>Your First Session Is On Us</h2>
       <p>Not sure yet? Book a free trial session and experience the studio before committing.</p>
       <a href="contact.html" class="btn btn-primary">Book Free Session</a>
     </div>
@@ -155,10 +175,10 @@
   <div class="container">
     <div class="footer-grid">
       <div class="footer-brand">
-        <img src="images/logo.jpeg" alt="FKG LIVE Studios">
+        <img src="images/logo.jpeg" alt="FKG LIVE Studios" loading="lazy">
         <p>Lagos' premier music production studio and creative academy — building Africa's next generation of creators.</p>
       </div>
-      <div class="footer-col"><h4>Courses</h4><a href="courses.html#music-production">Music Production</a><a href="courses.html#sound-engineering">Sound Engineering</a><a href="courses.html#graphic-design">Graphic Design</a><a href="courses.html#photography">Photography</a><a href="courses.html#cinematography">Cinematography</a><a href="courses.html#video-editing">Video Editing</a><a href="courses.html#dj-training">DJ Training</a></div>
+      <div class="footer-col"><h4>Courses</h4><a href="courses.html#music-production">Music Production</a><a href="courses.html#sound-engineering">Sound Engineering</a><a href="courses.html#live-studio-performance">Live Studio Performance</a><a href="courses.html#photography">Photography</a><a href="courses.html#cinematography">Cinematography</a><a href="courses.html#video-editing">Video Editing</a><a href="courses.html#dj-training">DJ Training</a></div>
       <div class="footer-col"><h4>Studio</h4><a href="about.html">About Us</a><a href="pricing.html">Pricing</a><a href="schedule.html">Schedule</a><a href="contact.html">Contact</a></div>
       <div class="footer-col"><h4>Contact</h4><a href="tel:+2348169041057">+234 816 904 1057</a><a href="https://instagram.com/fkg_live">@fkg_live</a><a href="#">16, Amudalat Onigbajo Street, Silverland Estate</a></div>
     </div>
@@ -173,6 +193,11 @@
 window.addEventListener('scroll', () => { document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 50); });
 const observer = new IntersectionObserver(entries => { entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); }); }, { threshold: 0.1 });
 document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+</script>
+<script>
+window.addEventListener('load', () => {
+  setTimeout(() => { document.getElementById('splashscreen').classList.add('hide'); }, 2000);
+});
 </script>
 
 </body>

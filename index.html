@@ -4,14 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FKG LIVE Studios — Music Production Studio & Creative Academy in Lagos</title>
-  <meta name="description" content="FKG LIVE Studios is Lagos' premier music production studio and creative academy. Professional training in Music Production, Sound Engineering, Graphic Design, Photography, Cinematography, Video Editing, and DJ Training.">
-  <meta name="keywords" content="music production Lagos, sound engineering Nigeria, creative studio Lagos, DJ training, graphic design course, photography studio, cinematography course, FKG LIVE">
+  <meta name="description" content="FKG LIVE Studios is Lagos' premier music production studio and creative academy. Professional training in Music Production, Sound Engineering, Live Studio Performance, Photography, Cinematography, Video Editing, and DJ Training.">
+  <meta name="keywords" content="music production Lagos, sound engineering Nigeria, creative studio Lagos, DJ training, live studio performance, photography studio, cinematography course, FKG LIVE, recording studio Lagos, music academy Nigeria, live performance studio, stage craft training, audio engineering Lagos, music production course Nigeria, Lagos creative academy">
   <meta name="author" content="FKG LIVE Studios">
   <meta property="og:title" content="FKG LIVE Studios — Lagos' Premier Music Production Studio & Creative Academy">
   <meta property="og:description" content="Lagos' premier music production studio and creative academy. 7 disciplines. Professional certification. Hands-on training.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://fkglive.com">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="FKG LIVE Studios — Lagos' Premier Recording Studio">
+  <meta name="twitter:description" content="Where sound meets skin. Lagos' most uncompromising recording studio and creative academy.">
   <link rel="canonical" href="https://fkglive.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" type="image/jpeg" href="images/logo.jpeg">
   <link rel="stylesheet" href="css/style.css">
   <script type="application/ld+json">
   {
@@ -38,7 +44,7 @@
       "itemListElement": [
         {"@type": "Offer", "itemOffered": {"@type": "EducationalOccupationalProgram", "name": "Music Production"}},
         {"@type": "Offer", "itemOffered": {"@type": "EducationalOccupationalProgram", "name": "Sound Engineering"}},
-        {"@type": "Offer", "itemOffered": {"@type": "EducationalOccupationalProgram", "name": "Graphic Design"}},
+        {"@type": "Offer", "itemOffered": {"@type": "EducationalOccupationalProgram", "name": "Live Studio Performance"}},
         {"@type": "Offer", "itemOffered": {"@type": "EducationalOccupationalProgram", "name": "Photography"}},
         {"@type": "Offer", "itemOffered": {"@type": "EducationalOccupationalProgram", "name": "Cinematography"}},
         {"@type": "Offer", "itemOffered": {"@type": "EducationalOccupationalProgram", "name": "Video Editing"}},
@@ -50,6 +56,12 @@
 </head>
 <body>
 
+<!-- Splashscreen -->
+<div class="splashscreen" id="splashscreen">
+  <img src="images/logo.jpeg" alt="FKG LIVE Studios">
+  <div class="splash-text">FKG LIVE Studios</div>
+</div>
+
 <!-- NAVIGATION -->
 <nav class="navbar" id="navbar">
   <div class="nav-top">
@@ -57,7 +69,7 @@
   </div>
   <div class="nav-main">
     <a href="index.html" class="nav-logo">
-      <img src="images/logo.jpeg" alt="FKG LIVE Studios">
+      <img src="images/logo.jpeg" alt="FKG LIVE Studios" loading="lazy">
     </a>
     <button class="mobile-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
     <div class="nav-links">
@@ -75,13 +87,13 @@
 <!-- HERO -->
 <section class="hero">
   <div class="hero-bg">
-    <img src="images/studio-1.png" alt="FKG LIVE Studios Recording Studio">
+    <img src="images/hero-studio.jpg" alt="FKG LIVE Studios Recording Studio">
     <div class="hero-overlay"></div>
   </div>
   <div class="hero-content">
     <div class="hero-badge">Now Enrolling</div>
-    <h1>Lagos' Premier<br>Music Production<br><span>Studio</span></h1>
-    <p class="hero-sub">Professional recording studio and creative academy in Lagos. Seven disciplines. Hands-on training. Industry-ready skills.</p>
+    <h1>Where Sound<br>Meets <span>Skin</span></h1>
+    <p class="hero-sub">Lagos' most uncompromising recording studio and creative academy. Seven disciplines. Real equipment. Real clients. No simulations — only the real thing.</p>
     <div class="hero-buttons">
       <a href="courses.html" class="btn btn-primary">Explore Courses</a>
       <a href="about.html" class="btn btn-outline">Our Story</a>
@@ -92,29 +104,29 @@
         <p>Disciplines</p>
       </div>
       <div class="hero-stat">
-        <h3>Top-Tier</h3>
-        <p>Equipment</p>
+        <h3>₦250k</h3>
+        <p>Starting</p>
       </div>
       <div class="hero-stat">
-        <h3>Lagos</h3>
-        <p>Location</p>
+        <h3>24/7</h3>
+        <p>Access</p>
       </div>
     </div>
   </div>
 </section>
 
 <!-- ABOUT PREVIEW -->
-<section style="background: var(--bg-secondary);">
+<section class="section-bg" style="background-image: url('images/studio-desk.jpg');">
   <div class="container">
     <div class="about-grid">
       <div class="about-img fade-up">
-        <img src="images/studio-2.png" alt="FKG LIVE Studios Interior">
+        <img src="images/studio-desk.jpg" alt="FKG LIVE Studios Interior" loading="lazy">
       </div>
       <div class="about-text fade-up stagger-1">
-        <div class="section-badge">About The Studio</div>
-        <h2>More Than a <span>Recording Studio</span></h2>
-        <p>FKG LIVE Studios is a full-service music production studio and creative hub — a place where artists record, producers create, and students learn from real industry work happening every day.</p>
-        <p>Our identity is done — logo locked, colors locked, and the studio is built out with top-notch equipment. With FKG LIVE Academy as our training arm, we're now opening doors to the next generation of creators.</p>
+        <div class="section-badge">The Frequency</div>
+        <h2>Built Different. <span>Built for Sound.</span></h2>
+        <p>FKG LIVE Studios isn't a room with microphones. It's a raw creative ecosystem — a space where artists bleed into records, producers push frequencies to their limits, and students are forged in the fire of real industry work happening every single day.</p>
+        <p>The brand is locked. The equipment is world-class. The studio is live. With FKG LIVE Academy as our training arm, we're handing the next generation of creators the keys to the kingdom — and daring them to build something the world hasn't heard yet.</p>
         <div class="about-features">
           <div class="about-feature"><span>Professional Equipment</span></div>
           <div class="about-feature"><span>Hands-On Training</span></div>
@@ -127,18 +139,18 @@
 </section>
 
 <!-- COURSES PREVIEW -->
-<section>
+<section class="section-bg" style="background-image: url('images/studio-performance.jpg');">
   <div class="container">
     <div class="section-header">
-      <div class="section-badge">FKG LIVE Academy</div>
-      <h2>Seven Disciplines, One Studio</h2>
+      <div class="section-badge">The Arsenal</div>
+      <h2>Seven Ways to Master Your Craft</h2>
       <p>Each course is designed to take you from beginner to industry-ready with hands-on practice on professional equipment.</p>
       <div class="section-divider"></div>
     </div>
     <div class="courses-grid">
       <div class="course-card fade-up">
         <div class="course-card-img">
-          <img src="images/studio-1.png" alt="Music Production Studio">
+          <img src="images/studio-mic.jpg" alt="Music Production Studio" loading="lazy">
           <div class="course-card-badge">Popular</div>
         </div>
         <div class="course-card-body">
@@ -153,7 +165,7 @@
       </div>
       <div class="course-card fade-up stagger-1">
         <div class="course-card-img">
-          <img src="images/studio-2.png" alt="Sound Engineering">
+          <img src="images/studio-headphones.jpg" alt="Sound Engineering" loading="lazy">
         </div>
         <div class="course-card-body">
           <div class="course-card-skills">Recording · Mixing · Mastering</div>
@@ -167,12 +179,12 @@
       </div>
       <div class="course-card fade-up stagger-2">
         <div class="course-card-img">
-          <img src="images/studio-1.png" alt="Creative Arts Studio">
+          <img src="images/studio-keys.jpg" alt="Live Studio Performance" loading="lazy">
         </div>
         <div class="course-card-body">
-          <div class="course-card-skills">Branding · Photography · Film</div>
-          <h3>Creative Arts</h3>
-          <p>From graphic design and photography to cinematography and video editing — build a complete creative portfolio.</p>
+          <div class="course-card-skills">Live Sets · Stage Craft · Sound</div>
+          <h3>Live Studio Performance</h3>
+          <p>Perform live in a real studio environment with real equipment and real audiences. Master stage presence, live arrangement, and the art of commanding a room through sound.</p>
         </div>
         <div class="course-card-footer">
           <span>5 More Disciplines</span>
@@ -184,11 +196,11 @@
 </section>
 
 <!-- JOURNEY -->
-<section style="background: var(--bg-secondary);">
+<section class="section-bg" style="background-image: url('images/studio-mixing.jpg');">
   <div class="container">
     <div class="section-header">
-      <div class="section-badge">Student Journey</div>
-      <h2>One Student's Path to Industry</h2>
+      <div class="section-badge">The Blueprint</div>
+      <h2>From Cursor to Curtain Call</h2>
       <p>Our cross-discipline model lets students build real, shippable work together instead of sitting in isolated classes.</p>
       <div class="section-divider"></div>
     </div>
@@ -205,8 +217,8 @@
       </div>
       <div class="journey-step">
         <div class="journey-num">03</div>
-        <h4>Graphic Design Collab</h4>
-        <p>Work with graphic design students on album art, branding, and visual identity.</p>
+        <h4>Live Performance Collab</h4>
+        <p>Collaborate with performance students for a live studio session — record, perform, and broadcast your sound in real time.</p>
       </div>
       <div class="journey-step">
         <div class="journey-num">04</div>
@@ -218,11 +230,11 @@
 </section>
 
 <!-- CTA -->
-<section>
+<section class="section-bg" style="background-image: url('images/studio-performance.jpg');">
   <div class="container">
     <div class="cta-banner fade-up">
-      <h2>Ready to Start Your Creative Journey?</h2>
-      <p>Limited spots available. Book a session or apply now and get professional training at Lagos' top recording studio.</p>
+      <h2>The Door Is Open. Walk Through It.</h2>
+      <p>Limited spots available. Lagos' most uncompromising studio is ready — the only question is whether you are.</p>
       <a href="contact.html" class="btn btn-primary">Book a Free Session</a>
     </div>
   </div>
@@ -233,7 +245,7 @@
   <div class="container">
     <div class="footer-grid">
       <div class="footer-brand">
-        <img src="images/logo.jpeg" alt="FKG LIVE Studios">
+        <img src="images/logo.jpeg" alt="FKG LIVE Studios" loading="lazy">
         <p>Lagos' premier music production studio and creative academy — building Africa's next generation of creators through professional training and real industry experience.</p>
         <div class="social-links" style="margin-top: 20px;">
           <a href="https://instagram.com/fkg_live" class="social-link" target="_blank">IG</a>
@@ -245,7 +257,7 @@
         <h4>Courses</h4>
         <a href="courses.html#music-production">Music Production</a>
         <a href="courses.html#sound-engineering">Sound Engineering</a>
-        <a href="courses.html#graphic-design">Graphic Design</a>
+        <a href="courses.html#live-studio-performance">Live Studio Performance</a>
         <a href="courses.html#photography">Photography</a>
         <a href="courses.html#cinematography">Cinematography</a>
         <a href="courses.html#video-editing">Video Editing</a>
@@ -285,6 +297,11 @@ const observer = new IntersectionObserver(entries => {
   entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); } });
 }, { threshold: 0.1 });
 document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+</script>
+<script>
+window.addEventListener('load', () => {
+  setTimeout(() => { document.getElementById('splashscreen').classList.add('hide'); }, 2000);
+});
 </script>
 
 </body>

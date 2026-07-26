@@ -5,6 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About — FKG LIVE Studios | Our Story & Mission</title>
   <meta name="description" content="Learn about FKG LIVE Studios — Lagos' premier music production studio and creative hub. Our mission is to build Africa's next generation of creators through FKG LIVE Academy.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="About FKG LIVE Studios — Our Story">
+  <meta name="twitter:description" content="The story behind Lagos' most uncompromising recording studio.">
+  <link rel="icon" type="image/jpeg" href="images/logo.jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="css/style.css">
   <script type="application/ld+json">
   {
@@ -29,10 +35,16 @@
 </head>
 <body>
 
+<!-- Splashscreen -->
+<div class="splashscreen" id="splashscreen">
+  <img src="images/logo.jpeg" alt="FKG LIVE Studios">
+  <div class="splash-text">FKG LIVE Studios</div>
+</div>
+
 <nav class="navbar" id="navbar">
   <div class="nav-top"><p>Now Enrolling — Limited Spots Available</p></div>
   <div class="nav-main">
-    <a href="index.html" class="nav-logo"><img src="images/logo.jpeg" alt="FKG LIVE Studios"></a>
+    <a href="index.html" class="nav-logo"><img src="images/logo.jpeg" alt="FKG LIVE Studios" loading="lazy"></a>
     <button class="mobile-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
     <div class="nav-links">
       <a href="index.html">Home</a>
@@ -46,56 +58,88 @@
   </div>
 </nav>
 
-<div class="page-hero">
+<div class="page-hero" style="background-image: url('images/studio-desk.jpg');">
   <div class="container">
     <div class="section-badge">Our Story</div>
-    <h1>About FKG LIVE Studios</h1>
-    <p>Lagos' premier music production studio — building Africa's next generation of creators, one cohort at a time.</p>
+    <h1>The Genesis</h1>
+    <p>The raw story behind Lagos' most uncompromising recording studio</p>
   </div>
 </div>
 
 <!-- Mission -->
-<section>
+<section class="section-bg" style="background-image: url('images/studio-headphones.jpg');">
   <div class="container">
     <div class="about-grid">
       <div class="about-img fade-up">
-        <img src="images/studio-2.png" alt="FKG LIVE Studios">
+        <img src="images/studio-mixing.jpg" alt="FKG LIVE Studios" loading="lazy">
       </div>
       <div class="about-text fade-up stagger-1">
         <div class="section-badge">Our Mission</div>
-        <h2>A Creative <span>Ecosystem</span>, Not Just a Studio</h2>
-        <p>FKG LIVE Studios isn't just a recording studio — it's a creative ecosystem. Artists record here, producers create here, and through FKG LIVE Academy, the next generation learns here.</p>
-        <p>A student might start in music production, collaborate with cinematography students on a music video, work with graphic design students on the album art — and leave with a complete portfolio and real industry experience.</p>
+        <h2>Not a School. Not a Classroom. <span>A Crucible.</span></h2>
+        <p>FKG LIVE Studios is not a school. It is not a classroom. It is a crucible — a place where raw talent is tested, refined, and forged into something undeniable. We don't hand out certificates for showing up. We build creators who can stand in any room in the industry and hold their own.</p>
+        <p>Every session here is a live wire. Artists don't rehearse in isolation — they collide with producers, engineers, cinematographers, and designers in real time. That friction, that pressure, that refusal to let anyone settle for mediocrity — that is how an artist is born. Not taught. Forged.</p>
       </div>
     </div>
   </div>
 </section>
 
 <!-- Vision -->
-<section style="background: var(--bg-secondary);">
+<section class="section-bg" style="background-image: url('images/studio-desk.jpg');">
   <div class="container">
     <div class="about-grid" style="direction: rtl;">
       <div class="about-img fade-up" style="direction: ltr;">
-        <img src="images/studio-1.png" alt="FKG LIVE Studios Equipment">
+        <img src="images/studio-desk.jpg" alt="FKG LIVE Studios Equipment" loading="lazy">
       </div>
       <div class="about-text fade-up stagger-1" style="direction: ltr;">
         <div class="section-badge">The Vision</div>
-        <h2>Cross-Discipline <span>Collaboration</span></h2>
-        <p>That cross-discipline model — students building real, shippable work together instead of sitting in isolated classes — is what compounds into reputation.</p>
-        <p>Reputation is what attracts the next generation of creators without us having to chase them.</p>
-        <p>We're not just building a studio. We're building a creative community that produces industry-ready talent through real projects, real collaboration, and real mentorship.</p>
+        <h2>Collaboration <span>Over Isolation</span></h2>
+        <p>The greatest records, the most powerful visuals, the most enduring creative work — none of it was made in a silo. It was made in rooms where disciplines collided, egos dissolved, and the work became everything.</p>
+        <p>We build those rooms. A producer sits next to a cinematographer. A sound engineer trades notes with a designer. Ideas don't wait for permission — they erupt, they challenge, they evolve. That collision is where reputation is forged, and reputation is what draws the next wave of creators to our door without us ever having to chase them.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Values -->
+<section class="section-bg" style="background-image: url('images/studio-mixing.jpg');">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-badge">Our Values</div>
+      <h2>What We Stand For</h2>
+      <div class="section-divider"></div>
+    </div>
+    <div class="courses-grid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));">
+      <div class="card fade-up" style="text-align: center;">
+        <div class="card-icon" style="margin: 0 auto 20px;">🎯</div>
+        <h3>Hands-On Training</h3>
+        <p>Every session is live equipment, real projects, real stakes. Theory dies here — execution is the only currency that matters.</p>
+      </div>
+      <div class="card fade-up stagger-1" style="text-align: center;">
+        <div class="card-icon" style="margin: 0 auto 20px;">🤝</div>
+        <h3>Cross-Discipline</h3>
+        <p>Producers work with cinematographers, designers collaborate with photographers, engineers remix with DJs. No department is an island.</p>
+      </div>
+      <div class="card fade-up stagger-2" style="text-align: center;">
+        <div class="card-icon" style="margin: 0 auto 20px;">📈</div>
+        <h3>Industry-Ready</h3>
+        <p>Graduates don't just have a certificate — they have a portfolio of real, shippable work and the muscle memory to perform under pressure.</p>
+      </div>
+      <div class="card fade-up stagger-3" style="text-align: center;">
+        <div class="card-icon" style="margin: 0 auto 20px;">🌱</div>
+        <h3>Mentorship Model</h3>
+        <p>Senior creators pour into junior cohorts, building a self-sustaining engine of knowledge transfer that outlasts any single enrollment cycle.</p>
       </div>
     </div>
   </div>
 </section>
 
 <!-- What's Done -->
-<section>
+<section class="section-bg" style="background-image: url('images/studio-desk.jpg');">
   <div class="container">
     <div class="section-header">
       <div class="section-badge">Studio Status</div>
-      <h2>What's Already Built</h2>
-      <p>Brand, identity, and the studio space are done. Here's where we stand.</p>
+      <h2>The Foundation Is Laid</h2>
+      <p>The stage is set. Every detail — from the logo to the last cable in the control room — is locked. Here's where we stand.</p>
       <div class="section-divider"></div>
     </div>
     <div class="courses-grid" style="max-width: 800px; margin: 0 auto;">
@@ -118,44 +162,11 @@
   </div>
 </section>
 
-<!-- Values -->
-<section style="background: var(--bg-secondary);">
-  <div class="container">
-    <div class="section-header">
-      <div class="section-badge">Our Values</div>
-      <h2>What We Stand For</h2>
-      <div class="section-divider"></div>
-    </div>
-    <div class="courses-grid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));">
-      <div class="card fade-up" style="text-align: center;">
-        <div class="card-icon" style="margin: 0 auto 20px;">🎯</div>
-        <h3>Hands-On Training</h3>
-        <p>Every class involves real equipment, real projects, and real results. No theory-only programs here.</p>
-      </div>
-      <div class="card fade-up stagger-1" style="text-align: center;">
-        <div class="card-icon" style="margin: 0 auto 20px;">🤝</div>
-        <h3>Cross-Discipline</h3>
-        <p>Students collaborate across departments — producers work with cinematographers, designers work with photographers.</p>
-      </div>
-      <div class="card fade-up stagger-2" style="text-align: center;">
-        <div class="card-icon" style="margin: 0 auto 20px;">📈</div>
-        <h3>Industry-Ready</h3>
-        <p>Graduates leave with a complete portfolio, professional certification, and real experience they can show employers.</p>
-      </div>
-      <div class="card fade-up stagger-3" style="text-align: center;">
-        <div class="card-icon" style="margin: 0 auto 20px;">🌱</div>
-        <h3>Mentorship Model</h3>
-        <p>Senior students mentor junior cohorts, creating a self-sustaining cycle of learning and growth.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section>
+<section class="section-bg" style="background-image: url('images/studio-headphones.jpg');">
   <div class="container">
     <div class="cta-banner">
-      <h2>Join the First Cohort</h2>
-      <p>Be part of something new. Apply now and help us build Africa's next generation of creators.</p>
+      <h2>Step Into the Frequency</h2>
+      <p>Stop watching from the sidelines. The frequency is live, the room is ready, and the first cohort is about to change everything. This is your moment — don't let it pass.</p>
       <a href="contact.html" class="btn btn-primary">Apply Now</a>
     </div>
   </div>
@@ -165,10 +176,10 @@
   <div class="container">
     <div class="footer-grid">
       <div class="footer-brand">
-        <img src="images/logo.jpeg" alt="FKG LIVE Studios">
+        <img src="images/logo.jpeg" alt="FKG LIVE Studios" loading="lazy">
         <p>Lagos' premier music production studio and creative academy — building Africa's next generation of creators.</p>
       </div>
-      <div class="footer-col"><h4>Courses</h4><a href="courses.html#music-production">Music Production</a><a href="courses.html#sound-engineering">Sound Engineering</a><a href="courses.html#graphic-design">Graphic Design</a><a href="courses.html#photography">Photography</a><a href="courses.html#cinematography">Cinematography</a><a href="courses.html#video-editing">Video Editing</a><a href="courses.html#dj-training">DJ Training</a></div>
+      <div class="footer-col"><h4>Courses</h4><a href="courses.html#music-production">Music Production</a><a href="courses.html#sound-engineering">Sound Engineering</a><a href="courses.html#live-studio-performance">Live Studio Performance</a><a href="courses.html#photography">Photography</a><a href="courses.html#cinematography">Cinematography</a><a href="courses.html#video-editing">Video Editing</a><a href="courses.html#dj-training">DJ Training</a></div>
       <div class="footer-col"><h4>Studio</h4><a href="about.html">About Us</a><a href="pricing.html">Pricing</a><a href="schedule.html">Schedule</a><a href="contact.html">Contact</a></div>
       <div class="footer-col"><h4>Contact</h4><a href="tel:+2348169041057">+234 816 904 1057</a><a href="https://instagram.com/fkg_live">@fkg_live</a><a href="#">16, Amudalat Onigbajo Street, Silverland Estate</a></div>
     </div>
@@ -183,6 +194,11 @@
 window.addEventListener('scroll', () => { document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 50); });
 const observer = new IntersectionObserver(entries => { entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); }); }, { threshold: 0.1 });
 document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+</script>
+<script>
+window.addEventListener('load', () => {
+  setTimeout(() => { document.getElementById('splashscreen').classList.add('hide'); }, 2000);
+});
 </script>
 
 </body>
