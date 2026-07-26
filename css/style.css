@@ -347,8 +347,9 @@ section { padding: 100px 0; }
   .journey-step::after { display: none; }
 }
 @media (max-width: 768px) {
+  .nav-main { flex-wrap: wrap; justify-content: space-between; padding: 12px 20px; }
   .nav-links { display: none; }
-  .nav-links.open { display: flex; flex-direction: column; width: 100%; padding: 16px 0; }
+  .nav-links.open { display: flex; flex-direction: column; width: 100%; padding: 16px 0; gap: 4px; }
   .mobile-toggle { display: block; }
   .hero-stats { flex-direction: column; gap: 24px; }
   .footer-grid { grid-template-columns: 1fr; }
