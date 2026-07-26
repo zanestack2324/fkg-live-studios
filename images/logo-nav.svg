@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="600" height="200">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4a853;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#f0d78c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b08a3a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <text x="30" y="140" font-family="'Arial Black', 'Helvetica Neue', sans-serif" font-weight="900" font-size="120" fill="url(#goldGrad)" letter-spacing="-2">FKG</text>
+  <text x="280" y="140" font-family="'Arial Black', 'Helvetica Neue', sans-serif" font-weight="900" font-size="120" fill="#ffffff" letter-spacing="-2">LIVE</text>
+  <text x="300" y="175" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="400" font-size="20" fill="#d4a853" letter-spacing="16" text-anchor="middle" opacity="0.9">ENTERTAINMENT</text>
+</svg>

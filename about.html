@@ -3,12 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About — FKG LIVE Studios | Our Story & Mission</title>
-  <meta name="description" content="Learn about FKG LIVE Studios — Lagos' premier music production studio and creative hub. Our mission is to build Africa's next generation of creators through FKG LIVE Academy.">
+  <title>About FKG LIVE Entertainment — Our Story | Lagos Entertainment Company</title>
+  <meta name="description" content="Discover the story behind FKG LIVE Entertainment — Lagos' premium entertainment company offering DJ services, music production, recording, and artist development across Nigeria.">
+  <meta name="keywords" content="FKG LIVE Entertainment, Lagos entertainment company, DJ services Nigeria, music production Lagos, artist development, live entertainment Nigeria">
+  <meta name="author" content="FKG LIVE Entertainment">
+  <meta property="og:title" content="About FKG LIVE Entertainment — Our Story | Lagos Entertainment Company">
+  <meta property="og:description" content="FKG LIVE isn't just a company — it's a movement. Built from the ground up in Lagos, Nigeria. Premium DJ services, music production, and artist development.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://fkglive.com/about.html">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="About FKG LIVE Studios — Our Story">
-  <meta name="twitter:description" content="The story behind Lagos' most uncompromising recording studio.">
-  <link rel="icon" type="image/jpeg" href="images/logo.jpeg">
+  <meta name="twitter:title" content="About FKG LIVE Entertainment — Our Story">
+  <meta name="twitter:description" content="The story behind Lagos' premier entertainment company. DJ services, music production, recording, and artist development.">
+  <link rel="canonical" href="https://fkglive.com/about.html">
+  <link rel="icon" type="image/svg+xml" href="images/logo.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="css/style.css">
@@ -16,11 +23,11 @@
   {
     "@context": "https://schema.org",
     "@type": "AboutPage",
-    "name": "About FKG LIVE Studios",
+    "name": "About FKG LIVE Entertainment",
     "mainEntity": {
-      "@type": "MusicRecordingStudio",
-      "name": "FKG LIVE Studios",
-      "description": "A full-service music production studio and creative hub where artists record, producers create, and students learn from real industry work.",
+      "@type": "EntertainmentCompany",
+      "name": "FKG LIVE Entertainment",
+      "description": "Premium entertainment company in Lagos, Nigeria offering DJ services, music production, recording, and artist development.",
       "url": "https://fkglive.com",
       "telephone": "+2348169041057",
       "address": {
@@ -28,7 +35,12 @@
         "streetAddress": "16, Amudalat Onigbajo Street, Silverland Estate",
         "addressLocality": "Lagos",
         "addressCountry": "NG"
-      }
+      },
+      "sameAs": [
+        "https://instagram.com/fkg_live",
+        "https://tiktok.com/@fkg_live",
+        "https://youtube.com/@fkglive"
+      ]
     }
   }
   </script>
@@ -37,70 +49,87 @@
 
 <!-- Splashscreen -->
 <div class="splashscreen" id="splashscreen">
-  <img src="images/logo.jpeg" alt="FKG LIVE Studios">
-  <div class="splash-text">FKG LIVE Studios</div>
+  <img src="images/logo.svg" alt="FKG LIVE Entertainment">
 </div>
 
+<!-- NAVIGATION -->
 <nav class="navbar" id="navbar">
   <div class="nav-main">
-    <a href="index.html" class="nav-logo"><img src="images/logo.jpeg" alt="FKG LIVE Studios" loading="lazy"></a>
+    <a href="index.html" class="nav-logo">
+      <img src="images/logo-nav.svg" alt="FKG LIVE Entertainment">
+    </a>
     <button class="mobile-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
     <div class="nav-links">
       <a href="index.html">Home</a>
-      <a href="courses.html">Courses</a>
-      <a href="pricing.html">Pricing</a>
+      <a href="services.html">Services</a>
       <a href="about.html" class="active">About</a>
-      <a href="schedule.html">Schedule</a>
+      <a href="gallery.html">Gallery</a>
       <a href="contact.html">Contact</a>
-      <a href="contact.html" class="nav-cta">Book a Session</a>
+      <a href="contact.html" class="nav-cta">Book Now</a>
     </div>
   </div>
 </nav>
 
-<div class="page-hero" style="background-image: url('images/studio-desk.jpg');">
+<!-- PAGE HERO -->
+<section class="page-hero" style="background-image: url('images/studio-desk.jpg');">
   <div class="container">
     <div class="section-badge">Our Story</div>
-    <h1>The Genesis</h1>
-    <p>The raw story behind Lagos' most uncompromising recording studio</p>
+    <h1>The Sound Behind the Brand</h1>
+    <p>FKG LIVE isn't just a company — it's a movement. Built from the ground up in Lagos, Nigeria.</p>
   </div>
-</div>
+</section>
 
-<!-- Mission -->
+<!-- MISSION -->
 <section class="section-bg" style="background-image: url('images/studio-headphones.jpg');">
   <div class="container">
+    <div class="section-header">
+      <div class="section-badge">Our Mission</div>
+      <h2>Why We Exist</h2>
+      <div class="section-divider"></div>
+    </div>
     <div class="about-grid">
       <div class="about-img fade-up">
-        <img src="images/studio-mixing.jpg" alt="FKG LIVE Studios" loading="lazy">
+        <img src="images/studio-mixing.jpg" alt="FKG LIVE Entertainment Studio" loading="lazy">
       </div>
       <div class="about-text fade-up stagger-1">
-        <div class="section-badge">Our Mission</div>
-        <h2>Not a School. Not a Classroom. <span>A Crucible.</span></h2>
-        <p>FKG LIVE Studios is not a school. It is not a classroom. It is a crucible — a place where raw talent is tested, refined, and forged into something undeniable. We don't hand out certificates for showing up. We build creators who can stand in any room in the industry and hold their own.</p>
-        <p>Every session here is a live wire. Artists don't rehearse in isolation — they collide with producers, engineers, cinematographers, and designers in real time. That friction, that pressure, that refusal to let anyone settle for mediocrity — that is how an artist is born. Not taught. Forged.</p>
+        <p>To provide world-class entertainment services that empower artists, brands, and businesses to reach their full creative potential. We bridge the gap between talent and opportunity through professional DJ services, music production, recording, and artist development.</p>
+        <div class="about-features">
+          <div class="about-feature"><span>DJ Services</span></div>
+          <div class="about-feature"><span>Music Production</span></div>
+          <div class="about-feature"><span>Recording</span></div>
+          <div class="about-feature"><span>Artist Development</span></div>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Vision -->
-<section class="section-bg" style="background-image: url('images/studio-desk.jpg');">
+<!-- VISION -->
+<section class="section-bg" style="background-image: url('images/studio-mixing.jpg');">
   <div class="container">
+    <div class="section-header">
+      <div class="section-badge">Our Vision</div>
+      <h2>Where We're Headed</h2>
+      <div class="section-divider"></div>
+    </div>
     <div class="about-grid" style="direction: rtl;">
       <div class="about-img fade-up" style="direction: ltr;">
-        <img src="images/studio-desk.jpg" alt="FKG LIVE Studios Equipment" loading="lazy">
+        <img src="images/studio-desk.jpg" alt="FKG LIVE Entertainment Equipment" loading="lazy">
       </div>
       <div class="about-text fade-up stagger-1" style="direction: ltr;">
-        <div class="section-badge">The Vision</div>
-        <h2>Collaboration <span>Over Isolation</span></h2>
-        <p>The greatest records, the most powerful visuals, the most enduring creative work — none of it was made in a silo. It was made in rooms where disciplines collided, egos dissolved, and the work became everything.</p>
-        <p>We build those rooms. A producer sits next to a cinematographer. A sound engineer trades notes with a designer. Ideas don't wait for permission — they erupt, they challenge, they evolve. That collision is where reputation is forged, and reputation is what draws the next wave of creators to our door without us ever having to chase them.</p>
+        <p>To become Africa's leading entertainment company — recognized globally for excellence in music production, live entertainment, and artist development. We envision a future where Nigerian talent competes on every stage worldwide.</p>
+        <div class="about-features">
+          <div class="about-feature"><span>Africa's Leading Brand</span></div>
+          <div class="about-feature"><span>Global Recognition</span></div>
+          <div class="about-feature"><span>Nigerian Talent Worldwide</span></div>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Values -->
-<section class="section-bg" style="background-image: url('images/studio-mixing.jpg');">
+<!-- VALUES -->
+<section class="section-bg" style="background-image: url('images/studio-headphones.jpg');">
   <div class="container">
     <div class="section-header">
       <div class="section-badge">Our Values</div>
@@ -110,88 +139,121 @@
     <div class="courses-grid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));">
       <div class="card fade-up" style="text-align: center;">
         <div class="card-icon" style="margin: 0 auto 20px;">🎯</div>
-        <h3>Hands-On Training</h3>
-        <p>Every session is live equipment, real projects, real stakes. Theory dies here — execution is the only currency that matters.</p>
+        <h3>Excellence</h3>
+        <p>Every beat, every mix, every performance — we settle for nothing less than perfection.</p>
       </div>
       <div class="card fade-up stagger-1" style="text-align: center;">
-        <div class="card-icon" style="margin: 0 auto 20px;">🤝</div>
-        <h3>Cross-Discipline</h3>
-        <p>Producers work with cinematographers, designers collaborate with photographers, engineers remix with DJs. No department is an island.</p>
+        <div class="card-icon" style="margin: 0 auto 20px;">💡</div>
+        <h3>Innovation</h3>
+        <p>We stay ahead of trends, technology, and techniques to deliver cutting-edge entertainment.</p>
       </div>
       <div class="card fade-up stagger-2" style="text-align: center;">
-        <div class="card-icon" style="margin: 0 auto 20px;">📈</div>
-        <h3>Industry-Ready</h3>
-        <p>Graduates don't just have a certificate — they have a portfolio of real, shippable work and the muscle memory to perform under pressure.</p>
+        <div class="card-icon" style="margin: 0 auto 20px;">🤝</div>
+        <h3>Integrity</h3>
+        <p>Transparent pricing, honest feedback, and genuine partnerships with every client.</p>
       </div>
       <div class="card fade-up stagger-3" style="text-align: center;">
-        <div class="card-icon" style="margin: 0 auto 20px;">🌱</div>
-        <h3>Mentorship Model</h3>
-        <p>Senior creators pour into junior cohorts, building a self-sustaining engine of knowledge transfer that outlasts any single enrollment cycle.</p>
+        <div class="card-icon" style="margin: 0 auto 20px;">🔥</div>
+        <h3>Impact</h3>
+        <p>We don't just create music — we create moments that move people.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- What's Done -->
-<section class="section-bg" style="background-image: url('images/studio-desk.jpg');">
+<!-- TRACK RECORD -->
+<section class="section-bg" style="background-image: url('images/studio-performance.jpg');">
   <div class="container">
     <div class="section-header">
-      <div class="section-badge">Studio Status</div>
-      <h2>The Foundation Is Laid</h2>
-      <p>The stage is set. Every detail — from the logo to the last cable in the control room — is locked. Here's where we stand.</p>
+      <div class="section-badge">Track Record</div>
+      <h2>The Track Record Speaks</h2>
       <div class="section-divider"></div>
     </div>
-    <div class="courses-grid" style="max-width: 800px; margin: 0 auto;">
-      <div class="card fade-up">
-        <div class="card-icon gold">✓</div>
-        <h3>Brand & Identity</h3>
-        <p>Logo locked, colors locked, visual identity complete. The FKG LIVE brand is ready for all marketing channels.</p>
+    <div class="courses-grid" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); max-width: 900px; margin: 0 auto;">
+      <div class="card fade-up" style="text-align: center;">
+        <h3 style="font-size: 2.5rem; color: var(--gold); margin-bottom: 5px;">500+</h3>
+        <p>Events</p>
       </div>
-      <div class="card fade-up stagger-1">
-        <div class="card-icon gold">✓</div>
-        <h3>Studio Space</h3>
-        <p>Fully built out with professional recording equipment, mixing consoles, cameras, lighting rigs, and DJ setup.</p>
+      <div class="card fade-up stagger-1" style="text-align: center;">
+        <h3 style="font-size: 2.5rem; color: var(--gold); margin-bottom: 5px;">50+</h3>
+        <p>Artists Developed</p>
       </div>
-      <div class="card fade-up stagger-2">
-        <div class="card-icon">→</div>
-        <h3>Students Needed</h3>
-        <p>The only variable left is enrollment. Everything from here is marketing, outreach, and filling the room with eager learners.</p>
+      <div class="card fade-up stagger-2" style="text-align: center;">
+        <h3 style="font-size: 2.5rem; color: var(--gold); margin-bottom: 5px;">1000+</h3>
+        <p>Studio Sessions</p>
+      </div>
+      <div class="card fade-up stagger-3" style="text-align: center;">
+        <h3 style="font-size: 2.5rem; color: var(--gold); margin-bottom: 5px;">10+</h3>
+        <p>Years Experience</p>
       </div>
     </div>
   </div>
 </section>
 
-<section class="section-bg" style="background-image: url('images/studio-headphones.jpg');">
+<!-- CTA -->
+<section class="section-bg" style="background-image: url('images/studio-dj.jpg');">
   <div class="container">
-    <div class="cta-banner">
-      <h2>Step Into the Frequency</h2>
-      <p>Stop watching from the sidelines. The frequency is live, the room is ready, and the first cohort is about to change everything. This is your moment — don't let it pass.</p>
-      <a href="contact.html" class="btn btn-primary">Apply Now</a>
+    <div class="cta-banner fade-up">
+      <h2>Ready to Work With Us?</h2>
+      <p>From live events to studio sessions, we're ready to bring your vision to life. Let's create something unforgettable.</p>
+      <a href="contact.html" class="btn btn-primary">Get In Touch</a>
     </div>
   </div>
 </section>
 
+<!-- FOOTER -->
 <footer class="footer">
   <div class="container">
     <div class="footer-grid">
       <div class="footer-brand">
-        <img src="images/logo.jpeg" alt="FKG LIVE Studios" loading="lazy">
-        <p>Lagos' premier music production studio and creative academy — building Africa's next generation of creators.</p>
+        <img src="images/logo-nav.svg" alt="FKG LIVE Entertainment" loading="lazy">
+        <p>Lagos' premier entertainment company — professional DJ services, music production, recording, and artist development.</p>
+        <div class="social-links" style="margin-top: 20px;">
+          <a href="https://instagram.com/fkg_live" class="social-link" target="_blank" rel="noopener">IG</a>
+          <a href="https://tiktok.com/@fkg_live" class="social-link" target="_blank" rel="noopener">TK</a>
+          <a href="https://youtube.com/@fkglive" class="social-link" target="_blank" rel="noopener">YT</a>
+        </div>
       </div>
-      <div class="footer-col"><h4>Courses</h4><a href="courses.html#music-production">Music Production</a><a href="courses.html#sound-engineering">Sound Engineering</a><a href="courses.html#live-studio-performance">Live Studio Performance</a><a href="courses.html#photography">Photography</a><a href="courses.html#cinematography">Cinematography</a><a href="courses.html#video-editing">Video Editing</a><a href="courses.html#dj-training">DJ Training</a></div>
-      <div class="footer-col"><h4>Studio</h4><a href="about.html">About Us</a><a href="pricing.html">Pricing</a><a href="schedule.html">Schedule</a><a href="contact.html">Contact</a></div>
-      <div class="footer-col"><h4>Contact</h4><a href="tel:+2348169041057">+234 816 904 1057</a><a href="https://instagram.com/fkg_live">@fkg_live</a><a href="#">16, Amudalat Onigbajo Street, Silverland Estate</a></div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <a href="services.html">DJ Services</a>
+        <a href="services.html">Music Production</a>
+        <a href="services.html">Recording</a>
+        <a href="services.html">Artist Development</a>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="about.html">About Us</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+        <a href="contact.html">Book Now</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="tel:+2348169041057">+234 816 904 1057</a>
+        <a href="mailto:info@fkglive.com">info@fkglive.com</a>
+        <a href="https://instagram.com/fkg_live">@fkg_live</a>
+        <a href="#">16, Amudalat Onigbajo Street, Silverland Estate, Lagos</a>
+      </div>
     </div>
     <div class="footer-bottom">
-      <p>&copy; 2026 FKG LIVE Studios. All rights reserved.</p>
-      <div class="footer-bottom-links"><a href="#">Privacy Policy</a><a href="#">Terms of Service</a></div>
+      <p>&copy; 2026 FKG LIVE Entertainment. All rights reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+      </div>
     </div>
   </div>
 </footer>
 
+<!-- SCRIPTS -->
 <script>
-window.addEventListener('scroll', () => { document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 50); });
-const observer = new IntersectionObserver(entries => { entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); }); }, { threshold: 0.1 });
+window.addEventListener('scroll', () => {
+  document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 50);
+});
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); } });
+}, { threshold: 0.1 });
 document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
 </script>
 <script>
