@@ -77,7 +77,7 @@ ul { list-style: none; }
 }
 .navbar.scrolled { background: rgba(10, 6, 6, 0.95); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); box-shadow: 0 2px 30px rgba(0,0,0,0.5); }
 .nav-main { display: flex; align-items: center; justify-content: space-between; padding: 16px 24px; max-width: 1200px; margin: 0 auto; }
-.nav-logo img { height: 120px; width: auto; filter: brightness(1.1); transition: var(--transition); }
+.nav-logo img { height: 120px; width: auto; filter: brightness(1.1); transition: var(--transition); mix-blend-mode: screen; }
 .nav-logo { display: flex; align-items: center; }
 .nav-links { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; align-items: center; }
 .nav-links a {
